@@ -44,6 +44,11 @@ Setup Dev Environment
 7. Or from command line using, 
 
 
+Adding Web Components using Spring MVC.
+1. Spring MVC provides annotations to create REST Endpoints.
+https://www.youtube.com/watch?v=oRFCeRVWCNE&index=11&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+
+
 References
 https://www.youtube.com/watch?v=9Pl4rlVAoOc&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=2
 
