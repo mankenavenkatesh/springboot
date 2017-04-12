@@ -22,6 +22,27 @@ Springboot startup steps
 4. Starts Tomcat Server
 
 
+Setup Dev Environment
+1. have java sdk
+2. create a simple maven project.
+3. add parent spring boot dependency. Configuration is defined in parent project. Our Project will inherit all configurations from parent.
+	Convention over configuration
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.2.RELEASE</version>
+	</parent>
+	
+4. Add below dependency. this will download all the jars required for a web application.
+	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.5.2.RELEASE</version>
+		</dependency>
+5.  Create a simple java class with main method. Add @SpringBootApplication annotation. in main method add SpringApplication.run(ClassName.class, args);
+6. Done. Your spring boot application is ready. run it using JavaApplication.
+7. Or from command line using, 
+
 
 References
 https://www.youtube.com/watch?v=9Pl4rlVAoOc&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=2
