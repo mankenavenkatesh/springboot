@@ -50,7 +50,16 @@ https://www.youtube.com/watch?v=oRFCeRVWCNE&index=11&list=PLqq-6Pq4lTTbx8p2oCgcA
 
 
 Behind the scenes
-1. 
+1. parent dependency will pull just the configuration. it will tell what version of dependency jars to use.
+2. 
+
+
+Spring MVC
+1. @RestController - Tells it's a rest controller. Rest Controller by default converts response to JSON type.
+2. @RequestMapping - Defines path
+3. @Service - Stereotype annotation. This marks class as spring business service. spring will create singleton instances of business services on bootup. it will register. 
+				if any dependency controller asks for service, spring will inject the existing spring instance.
+4. 				
 
 References
 https://www.youtube.com/watch?v=9Pl4rlVAoOc&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=2
